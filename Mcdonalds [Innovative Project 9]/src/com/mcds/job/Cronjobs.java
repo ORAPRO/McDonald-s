@@ -26,6 +26,7 @@ public class Cronjobs  extends Configured implements Tool {
 		//Step-1 Validate input arguments
 		if(args.length > 2){
 			System.out.println("Java Usage" + Cronjobs.class.getName() + "In valid arguments lenth and Properties path");
+		//	System.out.println("hiiiiiiiiii");
 	       return;
 		}
 		propertyReader = PropertyReader.getInstance();
